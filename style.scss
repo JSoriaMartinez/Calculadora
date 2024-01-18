@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+
+body {
+  background-image: url(./bahnijit-barman-1fZC2rYbpsU-unsplash.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  cursor: url("./pokebolas.png"), pointer;
+
+  img {
+    width: 70px;
+    margin-left:740px;
+    position: absolute;
+    margin-top: 250;
+  }
+
+  h1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-left: 390px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    text-shadow: 5px 5px 15px black,
+                 10px 5px 20px black;
+  }
+}
+
+.general{
+  position: relative;
+  border: 5px solid black;
+  width: 200px;
+  height: 370px;
+  margin-left: 400px;
+  margin-bottom: 450px;
+  border-radius: 4%;
+  background-color: whitesmoke;
+}
+
+.first-class {
+  background-color: #f80204;
+  width: 191px;
+  height: 60px;
+  border-radius: 5px;
+  border-bottom: 5px solid;
+
+  .screen_type {
+    margin-left: 21px;
+    margin-top: 13px;
+    width: 150px;
+    background-color: #36ffff;
+    border: 5px groove black;
+    text-align: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    border-radius: 5px;
+  }
+}
+
+.second_class {
+  display: flex;
+  text-align: center;
+  .on-off {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 0.9rem;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-weight: bold;
+    gap: 10px;
+    text-align: center;
+
+    
+    input {
+      background-image: url(./icons8-fight-pokemon-48.png);
+      background-size: cover;
+      border: 2px groove black;
+      border-radius: 50%;
+      background-color: transparent;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      align-content: center;
+      width: 40px;
+      height: 40px;
+      margin-bottom: 3px;
+      text-align: center;
+    }
+  }
+}
+
+.third_class {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  .operators {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    gap: 6px;
+    font-family: 'Pokemon Solid', sans-serif;
+    margin-top: 15px;
+    margin-left: 15px;
+
+    input {
+      background-image: url(./pokeball.png);
+      background-size: cover;
+      background-color: transparent;
+      border: 2px groove black;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      font-size: 0.8rem;
+      color: white;
+      text-shadow: 2px 2px 5px black,
+                   0px 0px 10px black,
+                   0px 0px 15px black;
+      font-weight: bold;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+  }
+}
+
+.fourth_class {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  .main_buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-left: 2px;
+    font-family: 'Pokemon Solid', sans-serif;
+
+    input {
+      background-image: url(./pokeball.png);
+      background-size: cover;
+      background-color: transparent;
+      border: 2px groove black;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      font-size: 0.8rem;
+      color: white;
+      text-shadow: 2px 2px 5px black,
+                   0 0 10px black,
+                   0 0 15px black;
+      font-weight: bold;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-right: 5px;
+    }
+
+  
+  }
+
+  .another {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-left: 2px;
+
+    input {
+      background-image: url(./pokeball.png);
+      background-size: cover;
+      background-color: transparent;
+      border: 2px groove black;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      font-size: 0.8rem;
+      color: white;
+      text-shadow: 2px 2px 5px black,
+                   0 0 10px black,
+                   0 0 15px black;
+      font-weight: bold;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-right: 5px;
+    }
+  }
+
+  .another_three {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-left: 2px;
+
+    input {
+      background-image: url(./pokeball.png);
+      background-size: cover;
+      background-color: transparent;
+      border: 2px groove black;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      font-size: 0.8rem;
+      color: white;
+      text-shadow: 2px 2px 5px black,
+                   0 0 10px black,
+                   0 0 15px black;
+      font-weight: bold;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-right: 5px;
+    }
+  }
+}
+
+.five_class {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  .lasts_one {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Pokemon Solid', sans-serif;
+
+    input {
+      background-image: url(./pokeball.png);
+      background-size: cover;
+      background-color: transparent;
+      border: 2px groove black;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      font-size: 0.8rem;
+      color: white;
+      text-shadow: 2px 2px 5px black,
+                   0 0 10px black,
+                   0 0 15px black;
+      font-weight: bold;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-right: 5px;
+    }
+  }
+}
+
+.foot {
+  display: flex;
+  background-color: #f80204;
+  height: 66px;
+  border-top: 5px solid;
+  border-radius: 5px;
+
+    .green_color {
+      background-color: #05a552;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 1.4px solid;
+      display: flex;
+      margin-top: 25px;
+      margin-left: 8px;
+      margin-right: 4px;
+    }
+    .yellow_color {
+      background-color: #ffef11;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 1.4px solid;
+      display: flex;
+      margin-top: 25px;
+      margin-right: 4px;
+    }
+    .red_color {
+      background-color: #ad0b11;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 1.4px solid;
+      display: flex;
+      margin-top: 25px;
+    }
+
+    .blue_color_main {
+      background-color: #36ffff;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      margin-left: 80px;
+      margin-top: 15px;
+      border:  4px groove black;
+    }
+
+  }
